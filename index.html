@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#000000" />
+  <title>Loren — Astrophysics</title>
+  <meta name="description" content="Loren — Postdoctoral Researcher in Astrophysics." />
+  <link rel="preload" as="image" href="Headshot.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <video
+    id="bg-video"
+    class="bg-video"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="auto"
+    poster="Headshot.jpg"
+    aria-hidden="true"
+  >
+    <source src="jupcz_extra_small.mp4" type="video/mp4" />
+  </video>
+  <div class="bg-overlay" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="brand" href="#">Loren ███████</a>
+    <nav>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#cv">CV</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="portrait" src="Headshot.jpg" alt="Portrait of Loren" />
+      <div class="intro">
+        <h1>Loren ███████</h1>
+        <p class="role">Postdoctoral Researcher · ████████ University</p>
+        <p class="bio">
+          I study ████████ and ████████ — how stars and planets form, evolve,
+          and shape the universe around them. (Replace this paragraph with a
+          short bio.)
+        </p>
+        <p class="links">
+          <a href="#contact">Get in touch</a>
+          <span class="sep">·</span>
+          <a href="#cv">CV</a>
+          <span class="sep">·</span>
+          <a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="featured" id="featured">
+      <h2 class="featured-title">Featured in</h2>
+      <ul class="featured-list">
+        <li><a href="#">Nature</a></li>
+        <li><a href="#">Science</a></li>
+        <li><a href="#">ApJ</a></li>
+        <li><a href="#">MNRAS</a></li>
+        <li><a href="#">Quanta</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>© <span id="year"></span> Loren ███████</span>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
